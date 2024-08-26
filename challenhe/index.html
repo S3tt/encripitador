@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Incriptador</title>
+</head>
+<body>
+    <header>
+        <img class="logoAlura" src="assets/Group 3.png" alt="Logo da Alura">
+    </header>
+
+    <main>
+        <section class="input-section">
+            <textarea class="text-area" cols="41" rows="6" placeholder="digite seu texto"></textarea>
+
+            <div class="informacao">
+                <h6>Apenas letras minúsculas sem acento</h6>
+            </div>
+
+            <div class="botoes">
+                <button class="btn-encriptar">Criptografar</button>
+                <button class="btn-desencriptar">Descriptografar</button>
+            </div>
+        </section>
+
+        <section class="output-section">
+            <img src="assets/pessoa.png" alt="Imagem de uma pessoa" class="output-image">
+            <textarea class="message" cols="28" rows="10" readonly></textarea>
+            <button class="btn-copiar">Copiar</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
